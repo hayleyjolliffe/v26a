@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/{{ page.styling }}.css">
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+
+        <link rel="canonical" href="https://hayleyjolliffe.co">
+        <link rel="alternate" type="application/atom+xml" href="/feed.xml">
+
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        <meta content="{{ page.description }}" name="description">
+        <meta content="{{ page.title }}" name="og:title">
+        <meta content="{{ page.title }}" name="og:site_name">
+        <meta content="{{ page.url }}" name="og:url">
+        <meta content="/assets/images/{{ page.image }}.webp" name="og:image">
+
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="{{ page.title }}" name="twitter:title">
+        <meta content="{{ page.description }}" name="twitter:description">
+        <meta content="/assets/images/{{ page.image }}.webp" name="twitter:image">
+    </head>
+    <body>
+
+        <header>
+
+            <a href="/">Hayley Jolliffe</a>
+
+        </header>
+
+        <main>
+
+            {{ content }}
+
+        </main>
+
+    </body>
+</html>

@@ -1,0 +1,149 @@
+@font-face {
+    font-family:'Inter';
+    src:url('/assets/fonts/inter.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'JetBrains Mono';
+    src:url('/assets/fonts/jetbrains.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'Newsreader';
+    src:url('/assets/fonts/newsreader.woff2') format('woff2');
+}
+
+html {
+    background-color:#FDFDFD;
+    color:#333;
+    font-family:'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings:'calt' 1, 'zero' 1;
+    font-size:14px;
+    font-weight:350;
+    line-height:160%;
+}
+
+header {
+    width:calc(50vw - 1.75rem);
+    margin:0 auto;
+    padding:12vh 0.875rem 0 0.875rem;
+}
+
+main {
+    width:50vw;
+    margin:0 auto;
+    padding:3vh 0.875rem 12vh 0.875rem;
+}
+
+section {
+    padding:0 0 6vh 0;
+}
+
+.padding {
+    width:calc(100% - 1.75rem);
+    margin:0 auto;
+}
+
+h1, h2, h3 {
+    font-size:14px;
+    font-weight:450;
+    line-height:160%;
+}
+
+img {
+    width:100%;
+    height:auto;
+    border-radius:0.438rem;
+}
+
+a {
+    color:#333;
+    text-decoration:underline;
+    text-decoration-color:#8E8E8E;
+    text-decoration-thickness:0.5px;
+    text-underline-offset:0.15em;
+}
+
+a:hover {
+    text-decoration-color:#333;
+}
+
+header a {
+    color:#333;
+    font-weight:450;
+    text-decoration:none;
+}
+
+header a:hover {
+    text-decoration:underline;
+}
+
+ul {
+    list-style-type:none;
+    padding:0;
+    margin:0 0 0.438rem 0;
+}
+
+ul a {
+    text-decoration:none;
+}
+
+li {
+    margin:0.875rem 0 0 0;
+    padding:0.875rem 0;
+}
+
+li>span, li>span:hover {
+    width:calc(100% - 1.75rem);
+    margin:0.875rem;
+}
+
+li:hover {
+    width:100%;
+    background:#F4F4F4;
+    border-radius:0.438rem;
+}
+
+.exempt a {
+    color:#333;
+    text-decoration:underline;
+    text-decoration-color:#8E8E8E;
+    text-decoration-thickness:0.5px;
+    text-underline-offset:0.15em;
+}
+
+.exempt a:hover {
+    text-decoration-color:#333;
+}
+
+.details {
+    color:#8E8E8E;
+}
+
+.newsreader {
+    font-family:'Newsreader', serif;
+    font-size:16px;
+}
+
+.context {
+    width:100%;
+    background:#F4F4F4;
+    border-radius:0.438rem;
+    padding:0;
+    margin:0 0 6vh 0;
+}
+
+    .context>h2 {
+        margin:0.875rem 0.875rem 0.875rem 0.875rem;
+        padding:1.75rem 0 0 0.875rem;
+    }
+
+    .context>p {
+        padding:0 0 1.75rem 1.75rem;
+    }
+
+@media only screen and (max-width: 767px) {
+    header, main {
+        width: 96vw;
+    }
+}
