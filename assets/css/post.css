@@ -79,34 +79,9 @@ header a:hover {
     text-decoration:underline;
 }
 
-ul {
-    list-style-type:none;
-    padding:0;
-    margin:0 0 0.438rem 0;
-}
-
-ul a {
-    text-decoration:none;
-}
-
-li {
-    margin:0.875rem 0 0 0;
-    padding:0.875rem 0;
-}
-
-li:hover {
-    color:var(--hover);
-    opacity:60%;
-}
-
 .details {
     color:var(--mute);
     text-align:right;
-}
-
-.newsreader {
-    font-family:'Newsreader', serif;
-    font-size:16px;
 }
 
 @media only screen and (max-width: 767px) {

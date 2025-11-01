@@ -1,0 +1,38 @@
+---
+layout: nil
+---
+
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+    <title>Hayley Jolliffe</title>
+    <link>https://hayleyjolliffe.co</link>
+    <copyright>Copyright 2025, Hayley Jolliffe</copyright>
+    <pubDate>{{ site.time }}</pubDate>
+    <lastBuildDate>{{ site.time }}</lastBuildDate>
+    <atom:link href="https://hayleyjolliffe.co/feed.xml" rel="self" type="application/rss+xml"/>
+    <logo>https://hayleyjolliffe.co/assets/favicon.png</logo>
+    <icon>https://hayleyjolliffe.co/assets/favicon.png</icon>
+    <image>
+        <url>https://hayleyjolliffe.co/assets/favicon.png</url>
+        <title>Hayley Jolliffe</title>
+        <link>https://hayleyjolliffe.co</link>
+    </image>
+    <author>hayley@hayleyjolliffe.co (Hayley Jolliffe)</author>
+    <webMaster>hayley@hayleyjolliffe.co (Hayley Jolliffe)</webMaster>
+    <managingEditor>hayley@hayleyjolliffe.co (Hayley Jolliffe)</managingEditor>
+    <description>Notes on productivity, books, minimalism, tech, and things of personal interest.</description>
+
+{% for post in site.posts %}
+<item>
+    <title>{{ post.title }}</title>
+    <author>hayley@hayleyjolliffe.co (Hayley Jolliffe)</author>
+    <link>https://hayleyjolliffe.co{{ post.permalink }}</link>
+    <guid>https://hayleyjolliffe.co{{ post.permalink }}</guid>
+    <pubDate>{{ post.date }}</pubDate>
+    <description><![CDATA[{{ post.content }}]]></description>
+    <content type="text/html">{{ post.content }}</content>
+</item>
+{% endfor %}
+
+</channel>
+</rss>

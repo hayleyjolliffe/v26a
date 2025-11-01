@@ -4,33 +4,34 @@ title: Hayley Jolliffe
 styling: main
 ---
 
-<section class="padding">
+<section>
     <p>
-        <span class="newsreader">Designer, programmer, and researcher.</span>
-        Thinking about and building systems to eliminate friction.
+        Designer, programmer, and researcher thinking about and building systems to eliminate friction.
         Interested in retrocomputing and reducing data fragmentation.
     </p>
 
-    <p>I work with startups to <span class="newsreader"><a href="/reduce-headache">reduce headache</a></span> in their digital workflows.</p>
+    <p>I work with people to <a href="/reduce-headache">reduce headache</a> in their digital workflows.</p>
 </section>
 
 <section>
-    <h2 class="padding">Writing</h2>
+    <h2>Writing</h2>
     <ul>
-        <a href="https://insequendo.substack.com/thoughts-on-turning-25" target="_blank">
-            <li>
-                <span>Thoughts on turning 25</span><br>
-                <span class="details">20 October, 2025</span>
-            </li>
-        </a>
+        {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <li>
+                    <span>{{ post.title }}</span><br>
+                    <span class="details">{{ post.date | date_to_long_string }}</span>
+                </li>
+            </a>
+        {% endfor %}
     </ul>
-    <p class="padding">
-        <small><a href="https://substack.com/@hayleyjolliffe" target="_blank">Archive</a></small>
+    <p>
+        <small><a href="/archive">Archive</a></small>
     </p>
 </section>
 
 <section>
-    <h2 class="padding">Projects</h2>
+    <h2>Projects</h2>
     <ul>
         <a href="https://github.com/hayleyjolliffe/obsidian-roadmap" target="_blank">
             <li>
@@ -41,14 +42,13 @@ styling: main
     </ul>
 </section>
 
-<section class="padding">
+<section>
     <h2>Now</h2>
     <p>
-        Explore recent <span class="newsreader"><a href="/work">work</a></span>,
-        what I'm <span class="newsreader"><a href="https://literal.club/hayleyjolliffe" target="_blank">reading</a></span>,
-        what I'm <span class="newsreader"><a href="/bookmarks">bookmarking</a></span>,
-        or what I'm <span class="newsreader"><a href="https://insequendo.substack.com" target="_blank">researching</a></span>.
+        Explore recent <a href="/work">work</a>,
+        what I'm <a href="https://literal.club/hayleyjolliffe" target="_blank">reading</a>,
+        or what I'm <a href="/bookmarks">bookmarking</a>.
     </p>
 
-    <p>For more detailed updates, see <span class="newsreader"><a href="/now">/now</a></span>, or <span class="newsreader"><a href="https://x.com/hayleyjolliffe" target="_blank">@hayleyjolliffe</a></span>.</p>
+    <p>For more detailed updates, see <a href="/now">/now</a>, or <a href="https://x.com/hayleyjolliffe" target="_blank">@hayleyjolliffe</a>.</p>
 </section>
