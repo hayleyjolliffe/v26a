@@ -3,6 +3,7 @@ layout: post
 title: Pseudo-ricing MacOS for increased, genuine productivity
 author: Hayley Jolliffe
 date: 2025-11-03 07:45:00 -0500
+description: Turns out, I don't need Arch to have the setup I want.
 permalink: /pseudo-ricing-macos
 styling: post
 ---

@@ -12,8 +12,8 @@
     --dark: #222;
     --light: #FDFDFD;
     --mute: color-mix(in srgb, var(--dark) 60%, transparent);
-    --accent: #1D7CA7;
-    --hover: #145C80;
+    --accent: #0071E3;
+    --hover: #0077ED;
 }
 
 html {
@@ -110,7 +110,31 @@ li:hover {
 }
 
 @media only screen and (max-width: 767px) {
-    header, main, footer {
-        width: calc(92vw - 1.75rem);
+    html {
+        width:calc(92vw - 6rem);
+        margin:0 auto;
+    }
+
+    header {
+        padding:6vh 0 0 0;
+    }
+
+    main, section, footer {
+        padding:0 0 6vh 0;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    html {
+        width:96vw;
+        margin:0 auto;
+    }
+
+    header {
+        padding:3vh 0 0 0;
+    }
+
+    main, section, footer {
+        padding:0 0 3vh 0;
     }
 }

@@ -3,6 +3,7 @@ layout: post
 title: Even spellchecking has been destroyed by AI slop
 author: Hayley Jolliffe
 date: 2025-11-02 07:45:00 -0500
+description: Thoughts on modern spellchecking.
 permalink: /even-spellchecking-has-been-destroyed-by-ai-slop
 styling: post
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Thoughts on turning 25
 author: Hayley Jolliffe
 date: 2025-10-20 07:45:00 -0400
+description: Focusing on making meaningful progress.
 permalink: /thoughts-on-turning-25
 styling: post
 ---

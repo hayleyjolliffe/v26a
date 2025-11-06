@@ -3,6 +3,7 @@ layout: post
 title: Hyperlink Roundup&#58; October, 2025
 author: Hayley Jolliffe
 date: 2025-11-01 07:45:00 -0400
+description: Finds of note from October, 2025.
 permalink: /hyperlink-roundup-october-2025
 category: hyperlink-roundup
 styling: post
