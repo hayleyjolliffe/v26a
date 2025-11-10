@@ -17,15 +17,15 @@ layout: nil
         <title>Hayley Jolliffe</title>
         <link>https://hayleyjolliffe.co</link>
     </image>
-    <author>hayley@hayleyjolliffe.co (Hayley Jolliffe)</author>
-    <webMaster>hayley@hayleyjolliffe.co (Hayley Jolliffe)</webMaster>
-    <managingEditor>hayley@hayleyjolliffe.co (Hayley Jolliffe)</managingEditor>
+    <author>Hayley Jolliffe</author>
+    <webMaster>hayley@hayleyjolliffe.co</webMaster>
+    <managingEditor>hayley@hayleyjolliffe.co</managingEditor>
     <description>Notes on productivity, books, minimalism, tech, and things of personal interest.</description>
 
 {% for post in site.posts %}
 <item>
     <title><![CDATA[{{ post.title }}]]></title>
-    <author>hayley@hayleyjolliffe.co (Hayley Jolliffe)</author>
+    <author>hayley@hayleyjolliffe.co</author>
     <link>https://hayleyjolliffe.co{{ post.permalink }}</link>
     <guid isPermalink="true">https://hayleyjolliffe.co{{ post.permalink }}</guid>
     <pubDate>{{ post.date }}</pubDate>
