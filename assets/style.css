@@ -115,8 +115,9 @@ footer > p > small > a:hover {
     }
 
     .site {
-        width:85dvw;
+        max-width:80dvw;
         margin:0 auto;
+        overflow-x:hidden;
     }
 }
 
@@ -128,7 +129,8 @@ footer > p > small > a:hover {
     }
 
     .site {
-        width:85dvw;
+        max-width:80dvw;
         margin:0 auto;
+        overflow-x:hidden;
     }
 }
