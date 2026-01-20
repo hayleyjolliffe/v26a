@@ -113,6 +113,10 @@ footer > p > small > a:hover {
         display:inline-block;
         margin:0 auto;
     }
+
+    .site {
+        width:90dvw;
+    }
 }
 
 @media only screen and (max-width: 441px) {
@@ -120,5 +124,9 @@ footer > p > small > a:hover {
         height:85dvh;
         display:inline-block;
         margin:0 auto;
+    }
+
+    .site {
+        width:90dvw;
     }
 }
