@@ -115,7 +115,8 @@ footer > p > small > a:hover {
     }
 
     .site {
-        width:90dvw;
+        width:85dvw;
+        margin:0 auto;
     }
 }
 
@@ -127,6 +128,7 @@ footer > p > small > a:hover {
     }
 
     .site {
-        width:90dvw;
+        width:85dvw;
+        margin:0 auto;
     }
 }
